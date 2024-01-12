@@ -8,6 +8,6 @@ metadata:
 spec:
   containers:
     - name: employee-producer-pod
-      image: acrsampletesteu2.azurecr.io/employeeproducer:4.25
+      image: acr112.azurecr.io/employeeproducer:version1-buildimage
       ports:
       - containerPort: 8000
