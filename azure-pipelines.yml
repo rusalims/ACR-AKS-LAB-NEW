@@ -35,7 +35,7 @@ stages:
               kubernetesServiceConnection: 'conn-aks-lab'
               secretName: employee-img-secret
               namespace: lab1-namespace
-              dockerRegistryEndpoint: acrsampletesteu2
+              dockerRegistryEndpoint: conn-acr-lab
           - task: KubernetesManifest@0
             displayName: Deploy to Kubernetes cluster
             inputs:
